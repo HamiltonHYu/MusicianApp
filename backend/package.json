@@ -1,0 +1,39 @@
+{
+  "name": "backend-music-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -q index.js",
+    "seed": "node models/seed.js",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/music-app-beta/backend-music-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/music-app-beta/backend-music-app/issues"
+  },
+  "homepage": "https://github.com/music-app-beta/backend-music-app#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3",
+    "uuid": "^9.0.0"
+  }
+}
